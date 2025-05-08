@@ -5,16 +5,16 @@ export interface Student {
   location: string;
 }
 const student1: Student = {
-  firstName: 'First',
-  lastName: 'Student',
-  age: 20,
-  location: 'Nairobi',
+  firstName: 'Dii',
+  lastName: 'Natha',
+  age: 22,
+  location: 'Kigali',
 };
 const student2: Student = {
-  firstName: 'Second',
-  lastName: 'Student',
-  age: 100,
-  location: 'Nairobi',
+  firstName: 'Hoho',
+  lastName: 'Gigi',
+  age: 18,
+  location: 'Moscow',
 };
 
 const studentsList: Array<Student> = [student1, student2];
